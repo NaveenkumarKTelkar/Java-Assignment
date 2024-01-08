@@ -17,7 +17,7 @@ public class PrimeNumInterval {
 
 		}else {
 			for(int i=x; i<=y; i++) {
-				sum= sum+i;
+				sum= sum+i+2;
 				System.out.println("Sum of Numbers in Given Interval is :"+sum);
 			}
 		}
